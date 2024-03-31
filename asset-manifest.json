@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/agura-initiative/static/css/main.f855e6bc.css",
-    "main.js": "/agura-initiative/static/js/main.a7ac5229.js",
-    "static/js/453.fbcca6a2.chunk.js": "/agura-initiative/static/js/453.fbcca6a2.chunk.js",
+    "main.css": "/agura-initiative/static/css/main.b4a3d046.css",
+    "main.js": "/agura-initiative/static/js/main.69555558.js",
     "index.html": "/agura-initiative/index.html",
-    "main.f855e6bc.css.map": "/agura-initiative/static/css/main.f855e6bc.css.map",
-    "main.a7ac5229.js.map": "/agura-initiative/static/js/main.a7ac5229.js.map",
-    "453.fbcca6a2.chunk.js.map": "/agura-initiative/static/js/453.fbcca6a2.chunk.js.map"
+    "main.b4a3d046.css.map": "/agura-initiative/static/css/main.b4a3d046.css.map",
+    "main.69555558.js.map": "/agura-initiative/static/js/main.69555558.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.a7ac5229.js"
+    "static/css/main.b4a3d046.css",
+    "static/js/main.69555558.js"
   ]
 }
