@@ -34,7 +34,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className='lg:flex lg:px-32 sm:px-10 mt-16'>
+                    <div className='lg:flex lg:px-32 sm:px-10 mt-16 gap-5'>
                         <div className='flex flex-col lg:w-1/2 lg:block rounded-md px-4 py-5 sm:bg-gray-300 sm:w-full  space-y-4'>
                             <h1 className='text-3xl font-bold'>Objectives</h1>
                             <h3 className='text-xl font-semibold'>Digital Literacy Education</h3>

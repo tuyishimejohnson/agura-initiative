@@ -11,7 +11,7 @@ const FooterForm = () => {
             <h1 className='text-3xl text-center font-bold text-blue-800 pb-4'>Do you have any inquiries</h1>
             <p className='text-center mb-10'>Fill out the form below, our team will get back to you soon.</p>
 
-            <form action="" className='space-y-5 px-32'>
+            <form action="" className='space-y-5 lg:px-32 sm:px-4'>
                 <input type="text" name='name' id='name' placeholder='Name'className='w-full pl-3 py-2 focus:outline-none focus:border-blue-500 focus:ring-1 bg-transparent border border-gray-400 rounded-full'/><br />
 
                 <input type="email" name='email' id='email' placeholder='Email'className='w-full pl-3 py-2 bg-transparent border border-gray-400 rounded-full focus:outline-none focus:border-blue-500 focus:ring-1'/><br />
@@ -31,11 +31,11 @@ const FooterForm = () => {
                     style={{border:0}} 
                     allowfullscreen="" 
                     loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade" className='mt-8 rounded-md w-full px-32'>
+                    referrerpolicy="no-referrer-when-downgrade" className='mt-8 rounded-md w-full lg:px-32 sm:px-4'>
 
             </iframe>
 
-            <div className='flex justify-evenly items-center px-32 py-10'>
+            <div className='flex justify-evenly items-center lg:px-32 py-10'>
                 <div className='flex flex-col items-center gap-3'>
                     < FontAwesomeIcon icon={faEnvelope} className='text-3xl text-blue-800 border border-blue-800 px-4 py-4 rounded-full'/>
                     <h3 className='font-bold'>Email</h3>
@@ -50,11 +50,11 @@ const FooterForm = () => {
             </div>
                 <div className='flex justify-center items-center bg-white py-10'>
                     <nav>
-                        <ul className='flex gap-5 items-center'>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Services</li>
-                            <li>Contacts</li>
+                        <ul className='flex gap-5 items-center font-bold text-blue-800'>
+                            <li className='hover:text-blue-400'>Home</li>
+                            <li className='hover:text-blue-400'>About Us</li>
+                            <li className='hover:text-blue-400'>Services</li>
+                            <li className='hover:text-blue-400'>Contacts</li>
                         </ul>
                     </nav>
                 </div> 
