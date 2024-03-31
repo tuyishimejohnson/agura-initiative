@@ -9,7 +9,7 @@ const HomePage = () => {
             <div className='mt-32'>
 
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
-                    <img src={require('./images/5e8caed9e3160c5a7fe56547_nesa-by-makers-kwzWjTnDPLk-unsplash-min_40_1_45.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 
+                    <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 
                     <div className='lg:w-1/2 lg:flex lg:items-center lg:relative'>
                         <p className='sm:text-center sm:font-extrabold sm:text-4xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
                         </p>
@@ -58,12 +58,8 @@ const HomePage = () => {
 
                                 <img src={require('./images/luis-villasmil-mlVbMbxfWI4-unsplash.jpg')} alt="" className='sm:hidden lg:block w-1/2    absolute bottom-[-2px] right-1/2 pl-3 rounded-md'/>
                         </div>
-                       
                     </div>
-
             </div>
-                
-    
     </>
   )
 }
