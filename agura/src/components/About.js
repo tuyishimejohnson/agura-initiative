@@ -1,15 +1,24 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import { useRef, useEffect } from 'react';
 
 const About = () => {
+    const headerRef = useRef(null);
+    useEffect(() => {
+        if(headerRef.current) {
+            headerRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [])
+
+
   return (
     <>
-        <div className='lg:relative sm:relative'>
+        <div className='lg:relative sm:relative' ref={headerRef}>
 
         
-            <div >
-                <img src={require('./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg')} alt="" className='h-screen w-full' style={{filter:'brightness(30%)'}}/>
+            <div>
+                <img src={require('./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg')} alt="" className=' w-full' style={{filter:'brightness(30%)', paddingTop: '5em' }}/>
             </div>
 
             <div className='lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 w-full text-white lg:px-32 sm:px-10 sm:absolute sm:top-4 '>

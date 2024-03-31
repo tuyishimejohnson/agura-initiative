@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 
 const Layout = () => {
     const [changed, setChanged] = useState(false);
@@ -31,10 +32,10 @@ const Layout = () => {
       <nav className={`flex justify-between items-center lg:py-6 sm:py-3 sm:px-16 lg:px-32 fixed top-0 left-0 right-0 z-30 ${changed ? 'shadow-md shadow-gray-400 bg-orange-50' : 'bg-transparent'}`}>
         <h1 className='text-2xl text-blue-900 font-extrabold'>Agura Initiative</h1>
         <ul className='lg:gap-9 sm:hidden lg:flex'>
-            <li className='navigation'>Home</li>
-            <li className='navigation'>About us</li>
-            <li className='navigation'>Services</li>
-            <li className='navigation'>Contacts</li>
+            <Link to="/" className='navigation'>Home</Link>
+            <Link to="/About" className='navigation'>About us</Link>
+            <Link to="/Services" className='navigation'>Services</Link>
+            <Link to="Contacts" className='navigation'>Contacts</Link>
         </ul>
         
         <div>

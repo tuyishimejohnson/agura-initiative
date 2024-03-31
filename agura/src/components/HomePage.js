@@ -1,12 +1,19 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbTack, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import { useEffect, useRef } from 'react';
 
 const HomePage = () => {
+    const headerRef = useRef(null);
+    useEffect(() => {
+        if(headerRef.current) {
+            headerRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [])
           
   return (
     <>
-            <div className='mt-32'>
+            <div ref={headerRef} style={{paddingTop: "8em"}}>
 
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
                     <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 

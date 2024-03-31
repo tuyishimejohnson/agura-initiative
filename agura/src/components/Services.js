@@ -1,9 +1,20 @@
 import React from 'react'
+import { useRef, useEffect } from 'react';
 
 const Services = () => {
+  const headerRef = useRef(null);
+    useEffect(() => {
+        if(headerRef.current) {
+            headerRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [])
+
+
+
+
   return (
     <div>
-      <div className='px-32 mt-16 flex'>
+      <div className='px-32 flex' ref={headerRef} style={{paddingTop: '8em'}}>
         <div className=''>
             <img src={require('./images/christin-hume-Hcfwew744z4-unsplash.jpg')} alt="" className='w-full'/>
         </div>

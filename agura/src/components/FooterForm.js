@@ -1,8 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
-const FooterForm = () => {
+const footerForm = () => {
     const phoneNumber = +2507888888;
     const email = 'j.tuyishime4@alustudent.com';
   return (
@@ -51,10 +52,10 @@ const FooterForm = () => {
                 <div className='flex justify-center items-center bg-white py-10'>
                     <nav>
                         <ul className='flex gap-5 items-center font-bold text-blue-800'>
-                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Home</li>
-                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>About Us</li>
-                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Services</li>
-                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Contacts</li>
+                            <Link className='hover:text-blue-400 hover:translate-x-1 transition'>Home</Link>
+                            <Link className='hover:text-blue-400 hover:translate-x-1 transition'>About Us</Link>
+                            <Link className='hover:text-blue-400 hover:translate-x-1 transition'>Services</Link>
+                            <Link className='hover:text-blue-400 hover:translate-x-1 transition'>Contacts</Link>
                         </ul>
                     </nav>
                 </div> 
@@ -63,4 +64,4 @@ const FooterForm = () => {
   )
 }
 
-export default FooterForm
+export default footerForm
