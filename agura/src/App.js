@@ -1,4 +1,6 @@
+import './index.css';
 import './App.css';
+import HomePage from './components/HomePage';
 import Layout from './components/Layout';
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
     <div>
 
       < Layout />
+      < HomePage />
     </div>
   );
 }
