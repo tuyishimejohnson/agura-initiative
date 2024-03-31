@@ -11,7 +11,7 @@ const HomePage = () => {
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
                     <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 
                     <div className='lg:w-1/2 lg:flex lg:items-center lg:relative'>
-                        <p className='sm:text-center sm:font-extrabold sm:text-4xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
+                        <p className='sm:text-center sm:font-extrabold sm:text-5xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
                         </p>
                     </div>
                     
@@ -34,8 +34,12 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className='lg:flex lg:px-32 sm:px-10 mt-16 gap-5'>
-                        <div className='flex flex-col lg:w-1/2 lg:block rounded-md px-4 py-5 sm:bg-gray-300 sm:w-full  space-y-4'>
+                    <div className='lg:block lg:px-32 sm:px-10 mt-16 gap-5 sm:relative'>
+
+                        <div className=''>
+
+                        
+                        <div className='flex flex-col lg:w-1/2 lg:block rounded-md px-4 py-5 sm:bg-gray-300  space-y-4 sm:absolute sm:z-10 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-3/4'>
                             <h1 className='text-3xl font-bold'>Objectives</h1>
                             <h3 className='text-xl font-semibold'>Digital Literacy Education</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis, consequatur ex facilis odio nihil totam nam dolore ad quis magnam harum deserunt fuga, fugit voluptatem dolores laboriosam ut voluptate.</p>
@@ -48,15 +52,17 @@ const HomePage = () => {
 
                         </div>
 
-                        <div className='lg:w-1/2 lg:relative lg:flex lg:items-center'>
-                            <div className=''>
-                                <img src={require('./images/socialMedia.7101420c493034938955.jpg')} alt="" className='w-full'/>
+                        </div>
+
+                        <div className=''>
+
+                       
+                            <div className='lg:relative lg:flex lg:items-center'>
+                                <div className=''>
+                                    <img src={require('./images/socialMedia.7101420c493034938955.jpg')} alt="" className='w-full brightness-50'/>
+                                </div>
+                                
                             </div>
-                            
-
-                                <img src={require('./images/christin-hume-Hcfwew744z4-unsplash.jpg')} alt="" className='w-1/2 absolute top-[-2px] left-1/2 pr-3 rounded-md sm:hidden lg:block'/>
-
-                                <img src={require('./images/luis-villasmil-mlVbMbxfWI4-unsplash.jpg')} alt="" className='sm:hidden lg:block w-1/2    absolute bottom-[-2px] right-1/2 pl-3 rounded-md'/>
                         </div>
                     </div>
             </div>

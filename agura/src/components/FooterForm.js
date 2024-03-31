@@ -51,10 +51,10 @@ const FooterForm = () => {
                 <div className='flex justify-center items-center bg-white py-10'>
                     <nav>
                         <ul className='flex gap-5 items-center font-bold text-blue-800'>
-                            <li className='hover:text-blue-400'>Home</li>
-                            <li className='hover:text-blue-400'>About Us</li>
-                            <li className='hover:text-blue-400'>Services</li>
-                            <li className='hover:text-blue-400'>Contacts</li>
+                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Home</li>
+                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>About Us</li>
+                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Services</li>
+                            <li className='hover:text-blue-400 hover:translate-x-1 transition'>Contacts</li>
                         </ul>
                     </nav>
                 </div> 
