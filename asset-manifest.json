@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/agura-initiative/static/css/main.f935edfa.css",
-    "main.js": "/agura-initiative/static/js/main.c9a55e4c.js",
-    "static/media/disruptivo-iQ15DTx-63k-unsplash.jpg": "/agura-initiative/static/media/disruptivo-iQ15DTx-63k-unsplash.2c800d66cf032f6ea674.jpg",
+    "main.css": "/agura-initiative/static/css/main.6e2031ae.css",
+    "main.js": "/agura-initiative/static/js/main.c22b2960.js",
     "static/media/christin-hume-Hcfwew744z4-unsplash.jpg": "/agura-initiative/static/media/christin-hume-Hcfwew744z4-unsplash.d3fbaf94f4c67c453db3.jpg",
     "static/media/domenico-loia-EhTcC9sYXsw-unsplash.jpg": "/agura-initiative/static/media/domenico-loia-EhTcC9sYXsw-unsplash.4dcc00416c48f30782ce.jpg",
     "static/media/socialMedia.jpg": "/agura-initiative/static/media/socialMedia.7101420c493034938955.7101420c493034938955.jpg",
-    "static/media/GettyImages-865900230-jpg": "/agura-initiative/static/media/GettyImages-865900230-5c0ebd3e4cedfd000185076d.ffdf61be579aa1fd945a.jpg",
+    "static/media/working_in_field2.jpg": "/agura-initiative/static/media/working_in_field2.1152919e805d9b44e2e3.jpg",
+    "static/media/guidance.jpg": "/agura-initiative/static/media/guidance.ffdf61be579aa1fd945a.jpg",
     "static/media/firstImg.jpg": "/agura-initiative/static/media/firstImg.5494236c81ccc4b1786a.jpg",
     "index.html": "/agura-initiative/index.html",
-    "main.f935edfa.css.map": "/agura-initiative/static/css/main.f935edfa.css.map",
-    "main.c9a55e4c.js.map": "/agura-initiative/static/js/main.c9a55e4c.js.map"
+    "main.6e2031ae.css.map": "/agura-initiative/static/css/main.6e2031ae.css.map",
+    "main.c22b2960.js.map": "/agura-initiative/static/js/main.c22b2960.js.map"
   },
   "entrypoints": [
-    "static/css/main.f935edfa.css",
-    "static/js/main.c9a55e4c.js"
+    "static/css/main.6e2031ae.css",
+    "static/js/main.c22b2960.js"
   ]
 }
