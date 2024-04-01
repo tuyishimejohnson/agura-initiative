@@ -14,7 +14,7 @@ const HomePage = () => {
           
   return (
     <>
-            <div ref={headerRef} style={{paddingTop: "8em"}}>
+            <div ref={headerRef} style={{paddingTop: "6em"}}>
 
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
                     <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 

@@ -40,8 +40,8 @@ const Layout = () => {
         
         <div>
             <ul className='flex items-center gap-5 sm:hidden lg:flex'>
-                <li>Login</li>
-                <li className='border hover:border-gray-400 hover:bg-transparent hover:text-black text-white bg-blue-900 px-6 py-2 rounded-md'>Sign Up</li>
+                <Link to='/Login'>Login</Link>
+                <Link className='border hover:border-gray-400 hover:bg-transparent hover:text-black text-white bg-blue-900 px-6 py-2 rounded-md'>Sign Up</Link>
             </ul>
             <div className='hidden sm:flex lg:hidden text-4xl text-blue-900 items-center'>
                 < FontAwesomeIcon icon={faBars}/>

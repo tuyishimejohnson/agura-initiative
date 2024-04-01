@@ -5,22 +5,24 @@ import Layout from './components/Layout';
 import About from './components/About';
 import Services from './components/Services';
 import Contacts from './components/Contacts';
-import { Route, Routes } from 'react-router-dom';
-// import FooterForm from './components/FooterForm';
+import { Routes, Route }  from 'react-router-dom';
+import Login from './components/Login';
 
 
 function App() {
   return (
     <div>
-      <Layout />
-      <Routes>
-        <Route path='/' element={ < HomePage /> }/>
-        <Route path='/About' element={ < About /> }/>
-        <Route path='/Services' element={ < Services /> }/>
-        <Route path='/Contacts' element={ < Contacts /> }/>
-      </Routes>    
-     
-    </div>
+      <Layout />   
+               
+        <Routes>
+          <Route path='/' element={ < Layout /> }/>
+          <Route index element={ < HomePage /> }/>
+          <Route path='/About' element={ < About /> }/>
+          <Route path='/Services' element={ < Services /> }/>
+          <Route path='/Contacts' element={ < Contacts /> }/>
+          <Route path='/Login' element={< Login />}/>
+        </Routes> 
+    </div> 
   );
 }
 
