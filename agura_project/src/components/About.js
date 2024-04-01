@@ -44,13 +44,13 @@ const About = () => {
                 <div className='flex justify-around mt-14 gap-3'>
 
                     <div className='text-center'>
-                        <h2 className='text-2xl font-bold'>Schedule in person conversation for career guidance.</h2>
-                        <button>Book a session</button>
+                        <h2 className='text-2xl font-bold mb-5'>Schedule in person conversation for career guidance.</h2>
+                        <button className='px-3 py-4 border'>Book a session</button>
                     </div>
                     
                     <div className='text-center'>
-                        <h2 className='text-2xl font-bold'>You can schedule an online discussion and check the availability of mentors.</h2>
-                        <button>Book a session</button>
+                        <h2 className='text-2xl font-bold mb-5'>You can schedule an online discussion and check the availability of mentors.</h2>
+                        <button className='px-3 py-4 border'>Book a session</button>
                     </div>                  
 
                 </div>
