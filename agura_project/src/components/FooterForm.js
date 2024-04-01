@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-const footerForm = () => {
+const FooterForm = () => {
     const phoneNumber = +2507888888;
     const email = 'j.tuyishime4@alustudent.com';
   return (
@@ -64,4 +64,4 @@ const footerForm = () => {
   )
 }
 
-export default footerForm
+export default FooterForm

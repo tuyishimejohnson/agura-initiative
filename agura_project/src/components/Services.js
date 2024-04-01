@@ -41,7 +41,7 @@ const Services = () => {
       </div>
       <div className='flex px-32'>
         
-            <img src={require('./images/GettyImages-865900230-5c0ebd3e4cedfd000185076d.jpg')} alt="" className='w-1/2 h-1/5'/>
+            <img src={require('./images/guidance.jpg')} alt="" className='w-1/2 h-1/5'/>
             
        
         <div className='flex flex-col items-center justify-center px-7'>
