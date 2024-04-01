@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRef, useEffect } from 'react';
+import FooterForm from './FooterForm';
 
 const Services = () => {
   const headerRef = useRef(null);
@@ -50,6 +51,8 @@ const Services = () => {
         </div>
         
       </div>
+
+      < FooterForm />
     </div>
   )
 }

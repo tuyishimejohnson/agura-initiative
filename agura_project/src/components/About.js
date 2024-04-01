@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useEffect } from 'react';
+import FooterForm from './FooterForm';
 
 const About = () => {
     const headerRef = useRef(null);
@@ -15,8 +16,6 @@ const About = () => {
   return (
     <>
         <div className='lg:relative sm:relative' ref={headerRef}>
-
-        
             <div>
                 <img src={require('./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg')} alt="" className=' w-full' style={{filter:'brightness(30%)', paddingTop: '5em' }}/>
             </div>
@@ -40,7 +39,8 @@ const About = () => {
                 <div className='flex justify-center items-center py-5 lg:text-xl sm:text-lg'>Explore more < FontAwesomeIcon icon={faAngleDoubleRight}/></div>
             </div>
         </div>
-      
+
+        < FooterForm />
     </>
   )
 }

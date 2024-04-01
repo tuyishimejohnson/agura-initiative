@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbTack, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useRef } from 'react';
+import FooterForm from './FooterForm';
 
 const HomePage = () => {
     const headerRef = useRef(null);
@@ -18,7 +19,7 @@ const HomePage = () => {
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
                     <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 
                     <div className='lg:w-1/2 lg:flex lg:items-center lg:relative'>
-                        <p className='sm:text-center sm:font-extrabold sm:text-5xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
+                        <p className='sm:text-center sm:font-extrabold lg:text-extrabold sm:text-4xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
                         </p>
                     </div>
                     
@@ -73,6 +74,8 @@ const HomePage = () => {
                         </div>
                     </div>
             </div>
+
+            < FooterForm />
     </>
   )
 }
