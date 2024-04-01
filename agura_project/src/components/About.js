@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useEffect } from 'react';
 import FooterForm from './FooterForm';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     const headerRef = useRef(null);
@@ -36,7 +37,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-center items-center py-5 lg:text-xl sm:text-lg'>Explore more < FontAwesomeIcon icon={faAngleDoubleRight}/></div>
+                 <Link to='/Services'><div className='flex justify-center items-center py-5 lg:text-xl sm:text-lg hover:text-gray-400 active:text-white transition hover:translate-x-1'>Explore more < FontAwesomeIcon icon={faAngleDoubleRight}/></div></Link>
             </div>
         </div>
 
