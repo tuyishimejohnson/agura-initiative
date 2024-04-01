@@ -32,7 +32,7 @@ const Services = () => {
        
         <div className='flex flex-col items-center justify-center px-7 mb-12'>
             <h1 className='text-2xl font-bold'>Exhibition of Various business Operations from individuals.</h1>
-            <p className=''>Users can showcase their profiles by listing their business offerings on the platform, enticing potential customers to engage with their products and services. This facilitates a dynamic interaction between sellers and consumers, fostering a thriving marketplace environment.</p>
+            <p className=''> As the majority of rural communities are engaged in agricultural activities, this is an opportunity them to showcase their profiles by listing their business offerings on the platform, enticing potential customers to engage with their products and services, facilitating a dynamic interaction between sellers and consumers, and fostering a thriving marketplace environment.</p>
         </div>
 
         <img src={require('./images/working_in_field2.jpg')} alt="" className='w-1/2'/>
@@ -42,7 +42,7 @@ const Services = () => {
         <img src={require('./images/guidance.jpg')} alt="" className='w-1/2 h-1/5'/>
         <div className='flex flex-col items-center justify-center px-7'>
             <h1 className='text-2xl font-bold w-full'>Career Guidance sessions.</h1>
-            <p className=''>The platform offers personalized guidance and valuable insights for navigating career choices, along with effective strategies to enhance existing career paths. It provides both individual and group sessions, conducted either in person or through virtual meetings, ensuring tailored support to meet diverse needs and preferences.</p>
+            <p className=''>We offer a personalized guidance and valuable insights for navigating career choices, along with effective strategies to enhance existing career paths by providing both individual and group sessions, conducted either in person or through virtual meetings, ensuring tailored support to meet diverse needs and preferences.</p>
         </div>
         
       </div>
