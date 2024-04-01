@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 
 
 const FooterForm = () => {
-  
 
-
-  return (
-    <div  style={{paddingTop: '8em'}} className=''>
+   return (
+    <div  style={{paddingTop: '8em'}}  className=''>
       <h1 className='text-center py-4 text-3xl font-bold text-blue-900'>For more information reach to us</h1>
       <form action="" className='flex flex-col space-y-4 w-3/4 justify-center m-auto bg-gray-200 px-7 py-10 rounded-md'>
 

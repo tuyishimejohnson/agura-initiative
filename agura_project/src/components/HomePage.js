@@ -19,8 +19,7 @@ const HomePage = () => {
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>
                     <img src={require('./images/firstImg.jpg')} alt="" className='lg:w-1/2 lg:rounded-tl-3xl sm:w-full sm:rounded-none sm:relative sm:brightness-50 lg:brightness-100'/> 
                     <div className='lg:w-1/2 lg:flex lg:items-center lg:relative'>
-                        <p className='sm:text-center sm:font-extrabold lg:text-extrabold sm:text-4xl sm:absolute sm:text-white lg:text-black sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Enhance your <span className='text-blue-600'>digital skills</span> through social media and websites to increase productivity.
-                        </p>
+                        <p className='sm:text-center sm:font-extrabold lg:text-extrabold sm:text-4xl sm:absolute sm:text-white lg:text-gray-700 sm:w-2/3 sm:top-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:-translate-y-1/2 sm:m-auto lg:w-full'>Improve productivity by developing your <span className='text-blue-600'>digital skills</span> through active engagement on social media platforms and websites.</p>
                     </div>
                     
                 </div>
@@ -50,13 +49,19 @@ const HomePage = () => {
                         <div className='flex flex-col lg:w-1/2 lg:block rounded-md px-4 py-5 sm:bg-gray-300  space-y-4 sm:absolute sm:z-10 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-3/4'>
                             <h1 className='text-3xl font-bold'>Objectives</h1>
                             <h3 className='text-xl font-semibold'>Digital Literacy Education</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis, consequatur ex facilis odio nihil totam nam dolore ad quis magnam harum deserunt fuga, fugit voluptatem dolores laboriosam ut voluptate.</p>
+                            <p>The platform delivers educational content on digital literacy, aimed at empowering youth with comprehensive knowledge of web applications and social media functionalities. This includes understanding potential risks, managing privacy settings effectively, and cultivating critical thinking skills to evaluate online content discerningly.</p>
 
                             <h3 className='text-xl font-semibold'>Positive Use of Technology</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis, consequatur ex facilis odio nihil totam nam dolore ad quis magnam harum deserunt fuga, fugit voluptatem dolores laboriosam ut voluptate.</p>
+                            <p>Emphasizing the significance of web applications and social media platforms for fostering networking, accessing learning resources, and facilitating community engagement.</p>
 
                             <h3 className='text-xl font-semibold'>Career Guidance Opportunities</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis, consequatur ex facilis odio nihil totam nam dolore ad quis magnam harum deserunt fuga, fugit voluptatem dolores laboriosam ut voluptate.</p>
+                            <p>Providing valuable information and insights on career opportunities and development to encourage self-sustainability and nurture an entrepreneurial mindset.
+
+
+
+
+
+</p>
 
                         </div>
 
