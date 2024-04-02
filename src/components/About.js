@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
 
-                 <Link to='/Services'><div className='flex justify-center items-center py-5 lg:text-xl sm:text-lg hover:text-gray-400 active:text-white transition hover:translate-x-1 gap-2'>Explore more< FontAwesomeIcon icon={faAngleDoubleRight}/></div></Link>
+                 <Link to='/ServicesProvided'><div className='flex justify-center items-center py-5 lg:text-xl sm:text-lg hover:text-gray-400 active:text-white transition hover:translate-x-1 gap-2'>Explore more< FontAwesomeIcon icon={faAngleDoubleRight}/></div></Link>
 
 
 

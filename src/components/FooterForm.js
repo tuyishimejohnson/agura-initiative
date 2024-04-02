@@ -26,9 +26,9 @@ const FooterForm = () => {
           <nav>
               <ul className='flex gap-5 items-center font-bold text-blue-800'>
                   <Link to='/' className='hover:text-blue-400 hover:translate-x-1 transition'>Home</Link>
-                  <Link to='/About' className='hover:text-blue-400 hover:translate-x-1 transition'>About Us</Link>
-                  <Link to='/Services' className='hover:text-blue-400 hover:translate-x-1 transition'>Services</Link>
-                  <Link to='/Contacts' className='hover:text-blue-400 hover:translate-x-1 transition'>Contacts</Link>
+                  <Link to='/AboutUs' className='hover:text-blue-400 hover:translate-x-1 transition'>About Us</Link>
+                  <Link to='/ServicesProvided' className='hover:text-blue-400 hover:translate-x-1 transition'>Services</Link>
+                  <Link to='/ContactUs' className='hover:text-blue-400 hover:translate-x-1 transition'>Contacts</Link>
               </ul>
           </nav>
       </div> 
