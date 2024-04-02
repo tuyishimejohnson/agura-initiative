@@ -32,7 +32,7 @@ const About = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur unde veritatis impedit quis voluptas error, voluptate praesentium beatae molestias recusandae enim laudantium totam esse sed eius? Facilis atque veritatis similique.
                     </div>
                     <div className='shadow shadow-gray-400 rounded-md px-4 py-3 bg-blue-900'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur unde veritatis impedit quis voluptas error, voluptate praesentium beatae molestias recusandae enim laudantium totam esse sed eius? Facilis atque veritatis similique.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur unde veritatis impedit quis voluptas error, voluptate praesentium beatae molestias recusandae enim laudantium totam esse sed eius? Facilis Lorem atque veritatis similique.
                     </div>
                 </div>
 
