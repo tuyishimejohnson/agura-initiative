@@ -4,6 +4,7 @@ import { faThumbTack, faLongArrowAltRight } from '@fortawesome/free-solid-svg-ic
 import { useEffect, useRef } from 'react';
 import FooterForm from './FooterForm';
 
+
 const HomePage = () => {
     const headerRef = useRef(null);
     useEffect(() => {
@@ -14,6 +15,7 @@ const HomePage = () => {
           
   return (
     <>
+        
             <div ref={headerRef} style={{paddingTop: "6em"}}>
 
                 <div className='lg:flex lg:px-32 gap-3 sm:px-10'>

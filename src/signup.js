@@ -6,6 +6,7 @@ import { SignUpSchema } from './Validations/signupValidation'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import Layout from './components/Layout';
 
 const SignUp = () => {
 
@@ -33,6 +34,7 @@ const SignUp = () => {
   return (
     <>
     <div>
+      < Layout />
         <div className='flex justify-center items-center h-screen' ref={headerRef}>
             <form action="" className='w-1/3 space-y-4' onSubmit={handleSubmit}>
             <h2 className='text-center font-bold text-3xl my-6'>Register here</h2>
