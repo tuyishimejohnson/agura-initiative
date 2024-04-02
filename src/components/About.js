@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useEffect } from 'react';
-import FooterForm from './FooterForm';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -54,12 +53,10 @@ const About = () => {
                     </div>                  
 
                 </div>
-
-                 
             </div>
         </div>
 
-        < FooterForm />
+       
     </>
   )
 }

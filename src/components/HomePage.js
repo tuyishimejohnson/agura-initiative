@@ -2,7 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbTack, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useRef } from 'react';
-import FooterForm from './FooterForm';
 
 
 const HomePage = () => {
@@ -81,8 +80,6 @@ const HomePage = () => {
                         </div>
                     </div>
             </div>
-
-            < FooterForm />
     </>
   )
 }

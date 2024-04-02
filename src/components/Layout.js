@@ -33,9 +33,9 @@ const Layout = () => {
         <Link to='/'><h1 className='text-2xl text-blue-900 font-extrabold'>Agura Initiative</h1></Link>
         <ul className='lg:gap-9 sm:hidden lg:flex'>
             <Link to="/" className='navigation'>Homes</Link>
-            <Link to="/About" className='navigation'>About us</Link>
-            <Link to="/Services" className='navigation'>Services</Link>
-            <Link to="Contacts" className='navigation'>Contacts</Link>
+            <Link to="/AboutUs" className='navigation'>About us</Link>
+            <Link to="/ServicesProvided" className='navigation'>Services</Link>
+            <Link to="ContactUs" className='navigation'>Contacts</Link>
         </ul>
         
         <div>

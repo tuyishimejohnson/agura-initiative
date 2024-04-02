@@ -7,6 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import Layout from './components/Layout';
+import FooterForm from './components/FooterForm';
 
 const SignUp = () => {
 
@@ -80,6 +81,8 @@ const SignUp = () => {
         </div>
       
     </div>
+
+    <FooterForm />
     </>
     
   )

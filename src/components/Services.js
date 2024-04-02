@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRef, useEffect } from 'react';
-import FooterForm from './FooterForm';
+
 
 const Services = () => {
   const headerRef = useRef(null);
@@ -44,10 +44,7 @@ const Services = () => {
             <h1 className='text-2xl font-bold w-full'>Career Guidance sessions.</h1>
             <p className=''>We offer a personalized guidance and valuable insights for navigating career choices, along with effective strategies to enhance existing career paths by providing both individual and group sessions, conducted either in person or through virtual meetings, ensuring tailored support to meet diverse needs and preferences.</p>
         </div>
-        
       </div>
-
-      < FooterForm />
     </div>
   )
 }
