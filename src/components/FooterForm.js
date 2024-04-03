@@ -10,15 +10,15 @@ const FooterForm = () => {
       <form action="" className='flex flex-col space-y-4 w-3/4 justify-center m-auto bg-gray-200 px-7 py-10 rounded-md'>
 
         <div className='flex gap-5 justify-center'>
-          <input type="text" name='name' id='name' placeholder='Name' className='w-full py-3 pl-2  bg-transparent border border-blue-800 rounded-md'/>
+          <input type="text" name='name' id='name' placeholder='Name' className='w-full py-3 pl-2  bg-transparent border border-blue-800 rounded-md focus:outline-none focus:border-gray-400 focus:border-2'/>
 
-          <input type="email" name='email' id='email' placeholder='Email' className='w-full py-3 pl-2  bg-transparent border border-blue-800 rounded-md'/>
+          <input type="email" name='email' id='email' placeholder='Email' className='w-full py-3 pl-2  bg-transparent border border-blue-800 rounded-md focus:outline-none focus:border-gray-400 focus:border-2'/>
         </div>
           
 
-          <input type="text" name='subject' id='subject' placeholder='Subject' className='w-full py-3 pl-2 bg-transparent border border-blue-800 rounded-md'/>
+          <input type="text" name='subject' id='subject' placeholder='Subject' className='w-full py-3 pl-2 bg-transparent border border-blue-800 rounded-md focus:outline-none focus:border-gray-400 focus:border-2'/>
 
-          <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='w-full pl-2 bg-transparent border border-blue-800 rounded-md'></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='w-full pl-2 bg-transparent border border-blue-800 rounded-md focus:outline-none focus:border-gray-400 focus:border-2'></textarea>
           <button type='submit' className='bg-blue-800 text-white w-1/2 m-auto py-4 rounded-full hover:bg-blue-700 active:bg-blue-600'>Submit</button>
       </form>
 

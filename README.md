@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+### Agura Initiative a digital Literacy and Career Development Platform. ###
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to our Platform! This README provides an overview of the requirements for the user to interact with our platform to ensure smooth operation and user satisfaction.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+### Sign up credentials
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users can create usernames using their email addresses.
+- Users can create passwords and receive a confirmation email to access the platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Login credentials
 
-### `npm test`
+-Users can log in by inserting their usernames.
+-Users can log in by inserting their passwords.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Booking sessions for career guidance
 
-### `npm run build`
+- Users can schedule in-person conversations with mentors and trainers.
+- Users can schedule online discussions with mentors and trainers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Schedule for awareness programs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Weekly training sessions are provided to raise awareness.
+- Users receive email notifications about the scheduled training days.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Posting products
 
-### `npm run eject`
+-Business owners can post and update their products and services on the platform.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Updates about country’s economy
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Users can access information about the current state of the economy.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contact Information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Users can provide feedback or queries regarding their interaction with the platform.
 
-## Learn More
+## Getting started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get started with our platform, visit ["I will import my deployed website"] and follow the steps below. For any assistance or questions, please contact j.tuyishime4@alustudent.com.
 
-### Code Splitting
+1.Sign Up: Create an account on our platform to access all features and resources.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Explore Resources: Dive into our digital literacy education materials, positive technology use resources and career guidance materials.
 
-### Analyzing the Bundle Size
+3. Participate: Engage in digital awareness programs, showcase your business, or attend career guidance sessions to enhance your digital skills.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4.Connect with Others: Connect with peers, mentors, and experts to expand your network and learn from everyone's experiences.
 
-### Making a Progressive Web App
+## Feedback and Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We value your feedback! If you have any questions or suggestions or encounter any issues while using our platform, please don't hesitate to contact us at [I will have the platform's contact page.]
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for choosing our Agura Initiative! We're excited to support you on your journey to success.
