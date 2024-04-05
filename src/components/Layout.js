@@ -32,7 +32,7 @@ const Layout = () => {
       <nav className={`flex justify-between items-center lg:py-6 sm:py-3 sm:px-16 lg:px-32 fixed top-0 left-0 right-0 z-30 ${changed ? 'shadow-md shadow-gray-400 bg-orange-50' : 'bg-transparent'}`}>
         <Link to='/'><h1 className='text-2xl text-blue-900 font-extrabold'>Agura Initiative</h1></Link>
         <ul className='lg:gap-9 sm:hidden lg:flex'>
-            <Link to="/" className='navigation'>Homes</Link>
+            <Link to="/" className='navigation'>Home</Link>
             <Link to="/AboutUs" className='navigation'>About us</Link>
             <Link to="/ServicesProvided" className='navigation'>Services</Link>
             <Link to="ContactUs" className='navigation'>Contacts</Link>

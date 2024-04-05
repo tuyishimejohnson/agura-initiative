@@ -39,7 +39,7 @@ Welcome to our Platform! This README provides an overview of the requirements fo
 ## Getting started
 
 
-To get started with our platform, visit ["I will import my deployed website"] and follow the steps below. For any assistance or questions, please contact j.tuyishime4@alustudent.com.
+To get started with our platform, visit https://symphonious-kheer-4d0068.netlify.app/ and follow the steps below. For any assistance or questions, please contact j.tuyishime4@alustudent.com.
 
 1.Sign Up: Create an account on our platform to access all features and resources.
 
@@ -51,7 +51,7 @@ To get started with our platform, visit ["I will import my deployed website"] an
 
 ## Feedback and Support
 
-We value your feedback! If you have any questions or suggestions or encounter any issues while using our platform, please don't hesitate to contact us at [I will have the platform's contact page.]
+We value your feedback! If you have any questions or suggestions or encounter any issues while using our platform, please don't hesitate to contact us at +250789612125
 
 
 
